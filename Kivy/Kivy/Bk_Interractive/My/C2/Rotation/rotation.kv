@@ -1,0 +1,22 @@
+#:kivy 1.9.1
+
+<RotationCanvas>:
+	pos_hint: {'x': .5 , 'y': .5}
+	canvas:
+		Rectangle:
+			source: 'kivy.png'
+		Rotate:
+			angle: 90
+			axis: 0,0,1
+		Color:
+			rgb: 1,0,0
+		Rectangle:
+			source: 'kivy.png'
+		Translate:
+			x: -100
+		Color:
+			rgb: 0,1,0
+		Rectangle:
+			source: 'kivy.png'
+		Translate:
+			y: 100
