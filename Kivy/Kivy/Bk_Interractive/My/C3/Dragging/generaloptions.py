@@ -1,3 +1,6 @@
+import kivy
+kivy.require('1.9.1')
+
 from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import NumericProperty , ListProperty
 
@@ -30,6 +33,11 @@ class GeneralOptions(BoxLayout):
          for child in self.drawing_space.children:
              if child.selected:
                  child.translate(*self.translation)
+
+     def on_translation(self,instance,value):
+         for child in self.drawing_space.children:
+                 if child.selected:
+                     child.translate(*self.translation)
 
 
 
