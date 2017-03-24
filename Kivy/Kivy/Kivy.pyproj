@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>048d67d6-b4a3-4b01-9ef5-9e45e81efc70</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Bk_Interractive\My\C4\screenManager\comiccreator.py</StartupFile>
+    <StartupFile>Bk_Interractive\My\C4\recording_gestures\gesturerecorder.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -290,6 +290,27 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bk_Interractive\My\C3\Dragging\toolbox.py" />
+    <Compile Include="Bk_Interractive\My\C4\multi_touch_samplebase\comiccreator.py" />
+    <Compile Include="Bk_Interractive\My\C4\multi_touch_samplebase\comicwidgets.py" />
+    <Compile Include="Bk_Interractive\My\C4\multi_touch_samplebase\drawingspace.py" />
+    <Compile Include="Bk_Interractive\My\C4\multi_touch_samplebase\generaloptions.py" />
+    <Compile Include="Bk_Interractive\My\C4\multi_touch_samplebase\statusbar.py" />
+    <Compile Include="Bk_Interractive\My\C4\multi_touch_samplebase\toolbox.py" />
+    <Compile Include="Bk_Interractive\My\C4\recording_gestures\comiccreator.py" />
+    <Compile Include="Bk_Interractive\My\C4\recording_gestures\comicwidgets.py" />
+    <Compile Include="Bk_Interractive\My\C4\recording_gestures\drawingspace.py" />
+    <Compile Include="Bk_Interractive\My\C4\recording_gestures\generaloptions.py" />
+    <Compile Include="Bk_Interractive\My\C4\recording_gestures\gesturerecorder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bk_Interractive\My\C4\recording_gestures\statusbar.py" />
+    <Compile Include="Bk_Interractive\My\C4\recording_gestures\toolbox.py" />
+    <Compile Include="Bk_Interractive\My\C4\stencilView\comiccreator.py" />
+    <Compile Include="Bk_Interractive\My\C4\stencilView\comicwidgets.py" />
+    <Compile Include="Bk_Interractive\My\C4\stencilView\drawingspace.py" />
+    <Compile Include="Bk_Interractive\My\C4\stencilView\generaloptions.py" />
+    <Compile Include="Bk_Interractive\My\C4\stencilView\statusbar.py" />
+    <Compile Include="Bk_Interractive\My\C4\stencilView\toolbox.py" />
     <Compile Include="Bk_Interractive\My\C4\test\color.py">
       <SubType>Code</SubType>
     </Compile>
@@ -390,6 +411,9 @@
     <Folder Include="Bk_Interractive\My\C3\Attribute\" />
     <Folder Include="Bk_Interractive\My\C3\Dragging\" />
     <Folder Include="Bk_Interractive\My\C4\" />
+    <Folder Include="Bk_Interractive\My\C4\multi_touch_samplebase\" />
+    <Folder Include="Bk_Interractive\My\C4\recording_gestures\" />
+    <Folder Include="Bk_Interractive\My\C4\stencilView\" />
     <Folder Include="Bk_Interractive\My\C4\test\" />
     <Folder Include="Bk_Interractive\My\C4\screenManager\" />
   </ItemGroup>
@@ -822,6 +846,22 @@
     <Content Include="Bk_Interractive\My\C3\Dragging\screenshot.png" />
     <Content Include="Bk_Interractive\My\C3\Dragging\statusbar.kv" />
     <Content Include="Bk_Interractive\My\C3\Dragging\toolbox.kv" />
+    <Content Include="Bk_Interractive\My\C4\multi_touch_samplebase\comiccreator.kv" />
+    <Content Include="Bk_Interractive\My\C4\multi_touch_samplebase\comicscreenmanager.kv" />
+    <Content Include="Bk_Interractive\My\C4\multi_touch_samplebase\comicwidgets.kv" />
+    <Content Include="Bk_Interractive\My\C4\multi_touch_samplebase\drawingspace.kv" />
+    <Content Include="Bk_Interractive\My\C4\multi_touch_samplebase\generaloptions.kv" />
+    <Content Include="Bk_Interractive\My\C4\multi_touch_samplebase\README" />
+    <Content Include="Bk_Interractive\My\C4\multi_touch_samplebase\statusbar.kv" />
+    <Content Include="Bk_Interractive\My\C4\multi_touch_samplebase\toolbox.kv" />
+    <Content Include="Bk_Interractive\My\C4\recording_gestures\comiccreator.kv" />
+    <Content Include="Bk_Interractive\My\C4\recording_gestures\comicscreenmanager.kv" />
+    <Content Include="Bk_Interractive\My\C4\recording_gestures\comicwidgets.kv" />
+    <Content Include="Bk_Interractive\My\C4\recording_gestures\drawingspace.kv" />
+    <Content Include="Bk_Interractive\My\C4\recording_gestures\generaloptions.kv" />
+    <Content Include="Bk_Interractive\My\C4\recording_gestures\README" />
+    <Content Include="Bk_Interractive\My\C4\recording_gestures\statusbar.kv" />
+    <Content Include="Bk_Interractive\My\C4\recording_gestures\toolbox.kv" />
     <Content Include="Bk_Interractive\My\C4\screenManager\comiccreator.kv" />
     <Content Include="Bk_Interractive\My\C4\screenManager\comicscreenmanager.kv" />
     <Content Include="Bk_Interractive\My\C4\screenManager\comicwidgets.kv" />
@@ -831,6 +871,15 @@
     <Content Include="Bk_Interractive\My\C4\screenManager\README" />
     <Content Include="Bk_Interractive\My\C4\screenManager\statusbar.kv" />
     <Content Include="Bk_Interractive\My\C4\screenManager\toolbox.kv" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\comiccreator.kv" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\comicscreenmanager.kv" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\comicwidgets.kv" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\comicwidgets.pyc" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\drawingspace.kv" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\generaloptions.kv" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\README" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\statusbar.kv" />
+    <Content Include="Bk_Interractive\My\C4\stencilView\toolbox.kv" />
     <Content Include="EncodingProbelm.txt" />
     <Content Include="requirements.txt" />
   </ItemGroup>
