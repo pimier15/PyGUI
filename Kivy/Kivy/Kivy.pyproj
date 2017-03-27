@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>048d67d6-b4a3-4b01-9ef5-9e45e81efc70</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Bk_Interractive\My\C4\recording_gestures\gesturerecorder.py</StartupFile>
+    <StartupFile>Bk_Interractive\My\C4\recording_gestures\comiccreator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -301,6 +301,9 @@
     <Compile Include="Bk_Interractive\My\C4\recording_gestures\drawingspace.py" />
     <Compile Include="Bk_Interractive\My\C4\recording_gestures\generaloptions.py" />
     <Compile Include="Bk_Interractive\My\C4\recording_gestures\gesturerecorder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bk_Interractive\My\C4\recording_gestures\gestures.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bk_Interractive\My\C4\recording_gestures\statusbar.py" />
